@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Js Blog Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="main_wrapper">
+      <div class="container">
+        <div class="wrapper">
+          <div class="topWrap">
+            <div class="heading">
+              <h2>Book List</h2>
+            </div>
+            <div class="headingBtn">
+              <button class="allbtn">All</button>
+              <button class="featuredBtn">featured</button>
+            </div>
+          </div>
+          <div class="blog_wrapper">
+            <div class="bookList">
+              <div class="blogCard">
+                <div class="blog_Cont">
+                  <div class="image">
+                    <img src="img/snow-1.jpg" alt="" />
+                  </div>
+                  <div class="textcont">
+                    <div class="feature">
+                      <button>Featured</button>
+                    </div>
+                    <div class="BookName">
+                      <h3>Slow</h3>
+                    </div>
+                    <div class="authorName">
+                      <p>Mike Herron</p>
+                    </div>
+                    <div class="rating">
+                      <i class="star fa fa-star" aria-hidden="true"></i>
+                      <i class="star fa fa-star" aria-hidden="true"></i>
+                      <i class="star fa fa-star" aria-hidden="true"></i>
+                      <i class="star fa fa-star" aria-hidden="true"></i>
+                      <i class="star fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="price">
+                      <h3>BDT 100</h3>
+                    </div>
+                  </div>
+                  <div class="leftIcons">
+                    <i
+                      class="icon fa fa-pencil-square-o"
+                      aria-hidden="true"
+                    ></i>
+                    <i class="icon fa fa-trash-o" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bookAdd_sec">
+              <div class="bookAdd">
+                <div class="bookContainer">
+                  <div class="bookAdd_heading">
+                    <h3>Book Add</h3>
+                  </div>
+                  <div class="bookInput">
+                    <div class="bookLabel">
+                      <label for="">Book Name</label>
+                    </div>
+                    <div class="bookInput">
+                      <input type="text" id="takeBook" />
+                    </div>
+                  </div>
+                  <div class="authorInput">
+                    <div class="authorLabel">
+                      <label for="">Author</label>
+                    </div>
+                    <div class="authorInput">
+                      <input type="text" id="takeAuthor" />
+                    </div>
+                  </div>
+                  <div class="imgInput">
+                    <div class="imgLabel">
+                      <label for="">Image Url</label>
+                    </div>
+                    <div class="imgInput">
+                      <input type="text" id="takeimg" />
+                    </div>
+                  </div>
+                  <div class="priceAndRating">
+                    <div class="priceInput">
+                      <div class="priceLabel">
+                        <label for="">Price</label>
+                      </div>
+                      <div class="inputPrice">
+                        <input type="text" id="takePrice" />
+                      </div>
+                    </div>
+                    <div class="ratingInput">
+                      <div class="ratingLabel">
+                        <label for="">Rating</label>
+                      </div>
+                      <div class="inputRating">
+                        <input type="text" id="takeRate" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="checktag">
+                    <div class="checkIn">
+                      <input type="checkbox" name="check" id="check" />
+                    </div>
+                    <div class="bookTag_label">
+                      <label for="" class="bookTag"
+                        >This is a featured book...
+                      </label>
+                    </div>
+                  </div>
+                  <div class="bookAddBtn">
+                    <button class="addBook_btn" onclick="bookAdd()">
+                      Add book
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/825d68f42c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
